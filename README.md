@@ -1,11 +1,5 @@
 <h2 align="left">Hello! You've come to the right place! Welcome to my GitHub profile.👋 </h2>
 
-###
-
-<img src="https://raw.githubusercontent.com/sansjtw1/sansjtw1/output/snake.svg" alt="Snake animation" />
-
-###
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sansjtw1/sansjtw1/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sansjtw1/sansjtw1/output/pacman-contribution-graph.svg">
