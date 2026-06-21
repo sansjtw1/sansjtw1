@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.novelplayer.app-mergeDebugResources-34:/layout/item_chapter.xml",
+        "source": "com.novelplayer.app-main-37:/layout/item_chapter.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "com.novelplayer.app-main-37:/layout/activity_main.xml"
+    }
+]

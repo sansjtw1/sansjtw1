@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_ic_play.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_bg_chapter_active.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/bg_chapter_active.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/layout_item_chapter.xml.flat",
+        "source": "com.novelplayer.app-main-37:/layout/item_chapter.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_ic_pause.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.novelplayer.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_bg_input.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_bg_badge.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/bg_badge.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_ic_next.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/ic_next.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_ic_prev.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/ic_prev.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_bg_chapter_normal.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/bg_chapter_normal.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_bg_card.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/drawable_ic_notification.xml.flat",
+        "source": "com.novelplayer.app-main-37:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.novelplayer.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.novelplayer.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.novelplayer.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

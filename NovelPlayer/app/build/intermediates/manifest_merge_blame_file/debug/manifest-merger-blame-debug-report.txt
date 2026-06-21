@@ -1,0 +1,203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.novelplayer.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- 网络权限 -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:6:5-67
+12-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:7:5-79
+13-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:7:22-76
+14
+15    <!-- 存储权限（Android 12及以下） -->
+16    <uses-permission
+16-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:10:5-12:40
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:10:22-78
+18        android:maxSdkVersion="32" />
+18-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:11:9-35
+19    <uses-permission
+19-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:13:5-14:38
+20        android:name="android.permission.READ_EXTERNAL_STORAGE"
+20-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:13:22-77
+21        android:maxSdkVersion="32" />
+21-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:14:9-35
+22
+23    <!-- Android 13+ 细粒度媒体权限 -->
+24    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+24-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:17:5-75
+24-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:17:22-72
+25    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+25-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:18:5-76
+25-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:18:22-73
+26
+27    <!-- 前台服务与通知 -->
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+28-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:21:5-77
+28-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:21:22-74
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+29-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:22:5-92
+29-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:22:22-89
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:23:5-77
+30-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:23:22-74
+31
+32    <!-- Wake Lock（后台播放） -->
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:26:5-68
+33-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:26:22-65
+34
+35    <permission
+35-->[androidx.core:core:1.9.0] /root/.gradle/caches/8.14.4/transforms/3ed76ff3e62233799438ebb935287e4f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+36        android:name="com.novelplayer.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.9.0] /root/.gradle/caches/8.14.4/transforms/3ed76ff3e62233799438ebb935287e4f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.9.0] /root/.gradle/caches/8.14.4/transforms/3ed76ff3e62233799438ebb935287e4f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.novelplayer.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.9.0] /root/.gradle/caches/8.14.4/transforms/3ed76ff3e62233799438ebb935287e4f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.9.0] /root/.gradle/caches/8.14.4/transforms/3ed76ff3e62233799438ebb935287e4f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:28:5-63:19
+42        android:allowBackup="true"
+42-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:29:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.9.0] /root/.gradle/caches/8.14.4/transforms/3ed76ff3e62233799438ebb935287e4f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+44        android:debuggable="true"
+45        android:extractNativeLibs="true"
+46        android:icon="@mipmap/ic_launcher"
+46-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:30:9-43
+47        android:label="@string/app_name"
+47-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:31:9-41
+48        android:supportsRtl="true"
+48-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:32:9-35
+49        android:theme="@style/Theme.NovelPlayer"
+49-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:33:9-49
+50        android:usesCleartextTraffic="true" >
+50-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:34:9-44
+51        <activity
+51-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:37:9-45:20
+52            android:name="com.novelplayer.app.MainActivity"
+52-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:38:13-41
+53            android:exported="true"
+53-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:39:13-36
+54            android:launchMode="singleTop" >
+54-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:40:13-43
+55            <intent-filter>
+55-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:41:13-44:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:42:17-69
+56-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:42:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:43:17-77
+58-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:43:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <service
+62-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:47:9-54:19
+63            android:name="com.novelplayer.app.service.AudioPlayerService"
+63-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:48:13-55
+64            android:exported="false"
+64-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:49:13-37
+65            android:foregroundServiceType="mediaPlayback" >
+65-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:50:13-58
+66            <intent-filter>
+66-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:51:13-53:29
+67                <action android:name="android.media.browse.MediaBrowserService" />
+67-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:52:17-83
+67-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:52:25-80
+68            </intent-filter>
+69        </service>
+70
+71        <receiver
+71-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:56:9-62:20
+72            android:name="androidx.media.session.MediaButtonReceiver"
+72-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:57:13-70
+73            android:exported="true" >
+73-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:58:13-36
+74            <intent-filter>
+74-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:59:13-61:29
+75                <action android:name="android.intent.action.MEDIA_BUTTON" />
+75-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:60:17-77
+75-->/workspace/NovelPlayer/app/src/main/AndroidManifest.xml:60:25-74
+76            </intent-filter>
+77        </receiver>
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/8.14.4/transforms/a4a6fb60940a6dbd5d3650026fe0963f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/8.14.4/transforms/a4a6fb60940a6dbd5d3650026fe0963f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+81            android:authorities="com.novelplayer.app.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/8.14.4/transforms/a4a6fb60940a6dbd5d3650026fe0963f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/8.14.4/transforms/a4a6fb60940a6dbd5d3650026fe0963f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/8.14.4/transforms/a4a6fb60940a6dbd5d3650026fe0963f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/8.14.4/transforms/a4a6fb60940a6dbd5d3650026fe0963f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/8.14.4/transforms/a4a6fb60940a6dbd5d3650026fe0963f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.6.1] /root/.gradle/caches/8.14.4/transforms/0ba53191fe447891236fde6ac6774ec5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.6.1] /root/.gradle/caches/8.14.4/transforms/0ba53191fe447891236fde6ac6774ec5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.6.1] /root/.gradle/caches/8.14.4/transforms/0ba53191fe447891236fde6ac6774ec5/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /root/.gradle/caches/8.14.4/transforms/f656e42cdcd27639475367d7d9ccff63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>
