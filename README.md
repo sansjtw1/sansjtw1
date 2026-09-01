@@ -3,8 +3,8 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sansjtw1/sansjtw1/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sansjtw1/sansjtw1/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/sansjtw1/sansjtw1/output/pacman-contribution-graph.svg">
-  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/sansjtw1/sansjtw1/output/snake.svg">
+  <img src="https://raw.githubusercontent.com/sansjtw1/sansjtw1/output/pacman-contribution-graph.svg">
+  <img src="https://raw.githubusercontent.com/sansjtw1/sansjtw1/output/snake.svg">
 </picture>
 
 ###
@@ -14,8 +14,9 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sansjtw1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sansjtw1&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+<img src="https://github-stats-extended.vercel.app/api?username=sansjtw1">
+<img src="https://github-stats-extended.vercel.app/api/?username=sansjtw1&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=Anurag%27s+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed">
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sansjtw1&langs_count=4">
 </div>
 
 ###
