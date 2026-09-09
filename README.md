@@ -22,7 +22,7 @@
 
 <div align="center">
   <img height="165" alt="GitHub stats" src="https://stats.justsong.cn/api/github?username=sansjtw1&lang=zh">
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sansjtw1&langs_count=4&layout=compact&theme=calm">
+  <img height="165" alt="Contribution chart" src="https://ghchart.rshah.org/sansjtw1">
 </div>
 
 ###
